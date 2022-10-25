@@ -21,7 +21,7 @@ Ranjit_Calculator()
 {
 frame=new JFrame("Ranjit_Calculator");
 Border border = BorderFactory.createLineBorder(Color.decode("#292d2e"));
-ImageIcon img = new ImageIcon("C:\\Users\\Windows 10\\IdeaProjects\\Intellij_Project\\src\\DataBase_Connector\\Calculator_512.png");
+ImageIcon img = new ImageIcon("C:\\Users\\Windows 10\\IdeaProjects\\Intellij_Project\\src\\DataBase_Connector\\Calculator_512.png"); // set your own icon for this application just put the icon location like this 
         frame.setIconImage(img.getImage());
         frame.getContentPane().setBackground(Color.decode("#1d2021"));
         label = new JLabel("Enter the Number:");
